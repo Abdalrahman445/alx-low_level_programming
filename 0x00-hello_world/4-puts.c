@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * a programm that print "Programming is like building
- *  a multilingual puzzle using puts function followed
- *  by anew line
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
