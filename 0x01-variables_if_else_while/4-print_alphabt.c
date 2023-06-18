@@ -10,7 +10,7 @@ int ch;
 
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-while (ch != 'd' && ch != 'e')
+while (ch != 'q' && ch != 'e')
 {
 putchar(ch);
 break;
