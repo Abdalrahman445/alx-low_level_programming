@@ -7,23 +7,30 @@ void times_table(void)
 {
 int i;
 int j;
+int k;
 
 for (i = 0 ; i < 10 ; i++)
 {
 for (j = 0 ; j < 10 ; j++)
 {
-printf("%d", i * j);
-if (j == 9)
+k = i * j;
+if (j == 0)
 {
-break;
+_putchar(k + '0');
 }
-if (i * j >= 10)
+else if (k < 10)
 {
-printf(", ");
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(k + '0');
 }
-else
+else if (k >= 10)
 {
-printf(",  ");
+_putchar(',');
+_putchar(' ');
+_putchar((k / 10) + '0');
+_putchar((k % 10) + '0');
 }
 }
 _putchar('\n');
