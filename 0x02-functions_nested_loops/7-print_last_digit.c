@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_last_digit - a function to print the last digit
  * @n:the numbet that we want to know his last digit
@@ -7,8 +8,18 @@
  */
 int print_last_digit(int n)
 {
-int num;
+int last_digit;
+int positive;
 
-num = n % 10;
-return (num);
+if (n >= 0)
+{
+last_digit= n % 10;
+return (last_digit);
+}
+else
+{
+positive= abs(n);
+last_digit= positive % 10;
+return (last_digit);
+}
 }
