@@ -14,12 +14,14 @@ int positive;
 if (n >= 0)
 {
 last_digit= n % 10;
+_putchar(last_digit + '0');
 return (last_digit);
 }
 else
 {
 positive= abs(n);
 last_digit= positive % 10;
+_putchar(last_digit + '0');
 return (last_digit);
 }
 }
