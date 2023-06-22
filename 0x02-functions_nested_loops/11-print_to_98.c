@@ -32,6 +32,17 @@ _putchar(' ');
 }
 if (n < 98)
 {
+for (; n <= -100 ; n++)
+{
+i = abs(n);
+_putchar('-');
+_putchar((i / 100) + '0');
+temp =i / 10;
+_putchar((temp % 10) + '0');
+_putchar((i % 10) + '0');
+_putchar(',');
+_putchar(' ');
+}
 for (; n <= -10 ; n++)
 {
 i = abs(n);
