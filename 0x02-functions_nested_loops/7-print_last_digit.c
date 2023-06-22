@@ -17,11 +17,12 @@ last_digit= n % 10;
 _putchar(last_digit + '0');
 return (last_digit);
 }
-else
+else if (n < 0)
 {
 positive= abs(n);
 last_digit= positive % 10;
 _putchar(last_digit + '0');
 return (last_digit);
 }
+return (0);
 }
