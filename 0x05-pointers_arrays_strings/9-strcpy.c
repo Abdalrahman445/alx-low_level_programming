@@ -7,6 +7,7 @@
  * to the buffer pointed to by dest.
  * @dest: the string we want to paste the other one in
  * @src: the string we want to copy
+ * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -18,6 +19,6 @@ for (i = 0 ; i < length ; i++)
 {
 *(dest + i) = *(src + i);
 }
-*(dest + length)='\0';
+*(dest + length) = '\0';
 return (dest);
 }
