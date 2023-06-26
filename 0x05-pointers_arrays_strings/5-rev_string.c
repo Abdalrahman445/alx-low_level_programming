@@ -15,7 +15,7 @@ int length;
 
 start = s;
 length = strlen(s);
-end = s+length;
+end = s + length;
 for (i = 0; i < length / 2; i++)
 {
 temp = *(start + i);
