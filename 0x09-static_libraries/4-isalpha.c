@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
 /**
  * _isalpha - Returns non-zero if the given character
  * is an alphabetic character.

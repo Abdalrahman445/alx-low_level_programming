@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 /**
  * _memcpy -  a function that copies memory area.
  * @n:the number of bytes we want to copy

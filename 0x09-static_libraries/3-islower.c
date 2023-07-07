@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
 /**
  * _islower - is a function to check if the char is
  * lowercase or highercase

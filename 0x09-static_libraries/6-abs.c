@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
 /**
  * _abs - a function to know the absolute of a number
  * Return: the absolute value
