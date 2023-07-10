@@ -73,6 +73,7 @@ int _check(char *s)
 int i;
 int length;
 
+i = 0;
 length = 0;
 while (s[i] != '\0')
 {
