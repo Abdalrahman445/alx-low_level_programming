@@ -75,10 +75,9 @@ int length;
 
 i = 0;
 length = 0;
-while (s[i] != '\0')
+while (s[length] != '\0')
 {
 length++;
-i++;
 }
 for (i = 0 ; i < length ; i++)
 {
