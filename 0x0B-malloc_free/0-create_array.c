@@ -15,14 +15,10 @@ char *a;
 int length;
 
 length = size;
-if (size == 0)
-{
-return (NULL);
-}
 a = malloc(size * sizeof(char));
 if (a == 0)
 {
-return (1);
+return (NULL);
 }
 for (i = 0 ; i < length ; i++)
 {
