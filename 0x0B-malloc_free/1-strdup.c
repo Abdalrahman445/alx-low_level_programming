@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _strdup - a function that returns a pointer to a newly allocated space in memory,
+ * _strdup - a function that returns a pointer
+ * to a newly allocated space in memory,
  * which contains a copy of the string given as a parameter
  * @str: the string we want to allocate
  * Return: a pointer to the duplicated string.
@@ -18,10 +19,6 @@ size = 0;
 while (str[size] != '\0')
 {
 size++;
-}
-if (size == 0)
-{
-return (NULL);
 }
 if (str == NULL)
 {
