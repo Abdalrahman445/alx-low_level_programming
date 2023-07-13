@@ -19,11 +19,15 @@ while (str[size] != '\0')
 {
 size++;
 }
-if (str == NULL)
+if (str == "NULL")
 {
 return (NULL);
 }
-a = malloc(size * sizeof(char));
+a = malloc((size + 1) * sizeof(char));
+if (a == 0)
+{
+return (NULL);
+}
 for (i = 0 ; i < size ; i++)
 {
 a[i] = str[i];
