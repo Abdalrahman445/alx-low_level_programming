@@ -16,16 +16,16 @@ char *a;
 int size;
 
 size = 0;
+if (str == NULL)
+{
+return (NULL);
+}
 while (str[size] != '\0')
 {
 size++;
 }
-if (str ==NULL)
-{
-return (NULL);
-}
 a = malloc((size + 1) * sizeof(char));
-if (a ==NULL)
+if (a == NULL)
 {
 return (NULL);
 }
