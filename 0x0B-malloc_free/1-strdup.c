@@ -20,7 +20,7 @@ while (str[size] != '\0')
 {
 size++;
 }
-if (str == NULL)
+if (str == 0)
 {
 return (NULL);
 }
