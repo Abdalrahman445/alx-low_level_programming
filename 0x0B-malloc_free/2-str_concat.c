@@ -16,7 +16,7 @@ int size2;
 char *a;
 
 size1 = 0;
-size1 = 0;
+size2 = 0;
 if (s1 == NULL)
 {
 s1 = "";
