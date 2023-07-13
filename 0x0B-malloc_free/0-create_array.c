@@ -17,9 +17,9 @@ int length;
 length = size;
 if (size == 0)
 {
-return ("NULL");
+return (NULL);
 }
-a = malloc(size *sizeof(char));
+a = malloc(size * sizeof(char));
 for (i = 0 ; i < length ; i++)
 {
 a[i] = c;
