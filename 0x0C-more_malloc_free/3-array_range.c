@@ -25,7 +25,11 @@ while (k <= max)
 i++;
 k++;
 }
-j = malloc(i * sizeof(int));
+j = malloc(i *sizeof(int));
+if (j == NULL)
+{
+return (NULL);
+}
 while (l <= max)
 {
 j[y] = l;
