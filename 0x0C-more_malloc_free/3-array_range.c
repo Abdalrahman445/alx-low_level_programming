@@ -16,6 +16,10 @@ int k;
 int l;
 int y;
 
+if (min > max)
+{
+return (NULL);
+}
 i = 0;
 k = min;
 l = min;
