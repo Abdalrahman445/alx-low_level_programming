@@ -14,11 +14,17 @@ char *i;
 unsigned int j;
 
 if (nmemb == 0 || size == 0)
-	return (NULL);
+{
+return (NULL);
+}
 i = malloc(nmemb * size);
 if (i == NULL)
-	return (NULL);
+{
+return (NULL);
+}
 for (j = 0 ; j < (nmemb * size) ; j++)
-       i[j] = 0;
+{
+i[j] = 0;
+}
 return (i);
 }
