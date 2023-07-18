@@ -33,8 +33,8 @@ return (NULL);
 my_dog->owner = malloc(sizeof(char) * (len2 + 1));
 if (my_dog->owner == NULL)
 {
-free(dog);
-free(dog->name);
+free(my_dog);
+free(my_dog->name);
 return (NULL);
 }
 _strcpy(my_dog->name, name);
