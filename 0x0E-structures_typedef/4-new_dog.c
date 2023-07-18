@@ -26,10 +26,17 @@ if (my_dog == NULL)
 	return (NULL);
 my_dog->name = malloc(sizeof(char) * (len1 + 1));
 if (my_dog->name == NULL)
-	return (NULL);
+{
+free(my_dog);
+return (NULL);
+}
 my_dog->owner = malloc(sizeof(char) * (len2 + 1));
 if (my_dog->owner == NULL)
-	return (NULL);
+{
+free(dog);
+free(dog->name);
+return (NULL);
+}
 _strcpy(my_dog->name, name);
 _strcpy(my_dog->owner, owner);
 my_dog->age = age;
