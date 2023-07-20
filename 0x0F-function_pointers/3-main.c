@@ -5,8 +5,9 @@
  * main - a function
  * @argc: the argument numbers
  * @argv: the arguments strings
+ * Return: 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 int num1;
 int num2;
