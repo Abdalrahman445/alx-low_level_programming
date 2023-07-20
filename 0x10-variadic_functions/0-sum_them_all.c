@@ -14,7 +14,7 @@ int sum;
 
 sum = 0;
 va_start(ap, n);
-for(i = 0 ; i < n ; i++)
+for (i = 0 ; i < n ; i++)
 {
 sum = sum + va_arg(ap, int);
 }
